@@ -1,0 +1,86 @@
+/* Small & clean CSS for your Music Manager UI */
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* headings */
+h2, h3 {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+/* forms */
+form {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 8px;
+  background: #0078ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005fcc;
+}
+
+/* Music list */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 12px;
+}
+
+li {
+  background: #fafafa;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li b {
+  font-size: 14px;
+}
+
+li button {
+  padding: 5px 10px;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+/* edit + delete buttons */
+.edit-btn {
+  background: #28a745 !important;
+}
+
+.delete-btn {
+  background: #e63946 !important;
+}

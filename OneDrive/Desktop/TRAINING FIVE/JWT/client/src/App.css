@@ -1,0 +1,80 @@
+/* ========== GLOBAL STYLES ========== */
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f5f8;
+  padding: 0;
+  margin: 0;
+}
+
+h2, h3 {
+  text-align: center;
+  color: #333;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  width: 95%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* ========== FORM CONTAINER ========== */
+form {
+  background: white;
+  padding: 20px;
+  width: 300px;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* ========== FOOD LIST ========== */
+ul {
+  list-style: none;
+  padding: 0;
+  width: 320px;
+  margin: 20px auto;
+}
+
+li {
+  background: white;
+  padding: 12px;
+  margin: 8px 0;
+  font-size: 16px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-left: 5px solid #007bff;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* ========== LOGOUT BUTTON ========== */
+.logout-btn {
+  width: 150px;
+  margin: 20px auto;
+  display: block;
+  background-color: #ff4444;
+}
+
+.logout-btn:hover {
+  background-color: #cc0000;
+}
